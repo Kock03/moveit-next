@@ -22,8 +22,9 @@
   background-color: var(--green);
 }
 
-span.currentExperience {
+.experienceBar span.currentExperience {
   position: absolute;
   top: 12px;
   transform: translateX(-50%);
+  transition: left 0.4s;
 }

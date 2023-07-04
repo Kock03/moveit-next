@@ -8,7 +8,7 @@
   --white:#fff;
   --background: #F2F3F5;
   --gray-line: #DCDDE0;
-  --text: #666666
+  --text: #666666;
   --title: #2E384D;
   --red: #E83F5B;
   --green: #4CD62B;
@@ -35,7 +35,7 @@ body {
 }
 
 body, input, textarea, button {
-  font: 400 16px "Inter", sans-serif;
+  font: 400 1rem "Inter", sans-serif;
 }
 
 button {
@@ -47,13 +47,5 @@ a {
   text-decoration: none;
 }
 
-.container {
-  height: 100vw;
-  max-width: 992px;
-  margin: 0 auto;
-  padding: 2.5rem 2rem;
 
-  display: flex;
-  flex-direction: column;
-}
 
