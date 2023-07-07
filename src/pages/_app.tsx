@@ -1,6 +1,14 @@
-import '@/styles/global.css'
-import type { AppProps } from 'next/app'
+import "@/styles/global.css";
+import type { AppProps } from "next/app";
+import { ChallengesProvider } from "../contexts/ChallegensContext";
+import { useState } from "react";
 
-export default function App({ Component, pageProps }: AppProps) {
-  return <Component {...pageProps} />
+function App({ Component, pageProps }: AppProps) {
+  return (
+    <ChallengesProvider>
+      <Component {...pageProps} />
+    </ChallengesProvider>
+  );
 }
+
+export default App;
